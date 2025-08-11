@@ -18,3 +18,5 @@ console.log("bangluru")
 
 
 console.log(typeof null);
+window.alert("Hello world!");
+alert("Hello world!");
