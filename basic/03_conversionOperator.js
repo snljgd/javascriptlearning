@@ -26,3 +26,16 @@ let stringNumber = String(someNumber)
 
 console.log(stringNumber)
 console.log(typeof stringNumber);
+
+console.log('5'+2);
+console.log('5'-3);
+
+let num = 240;
+
+console.log(num.toString(2)); /* 2 matlab binary number me convert karta he */
+console.log(num.toString(8))  /* 8 matlab octal number me convert karta he  */
+console.log(num.toString(16)); /* 16 hexa decimal me convert karta he */
+
+
+
+
