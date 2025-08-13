@@ -13,10 +13,24 @@
 // console.log(number.toPrecision(4)) round of karta he 
 
 // const handreds = 1000000
-console.log(handreds.toLocaleString('en-IN'))
+// console.log(handreds.toLocaleString('en-IN'))
 
 
 
 // *****************MATHS**********************
 
+console.log(Math.ceil(4.2))
+console.log(Math.floor(4.9))
+
+console.log(Math.max(4,6,9,6))
+console.log(Math.min(4,9,3,2,1))
+
+console.log(Math.random()*5+1)
+
+console.log(Math.random(Math.random()*10)+1);
+
+const min = 10
+const max = 20
+
+console.log(Math.floor(Math.random()*(max - min +1 ) + min))
 
