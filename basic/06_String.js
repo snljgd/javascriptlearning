@@ -15,3 +15,6 @@ console.log(cityName.charAt(3));
 console.log(cityName.blink())
 
 
+
+
+
