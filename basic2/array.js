@@ -1,24 +1,24 @@
 //array
 
 
-const Myarray = new Array(2,6,3,5,5)
-console.log(Myarray[3])
+// const Myarray = new Array(2,6,3,5,5)
+// console.log(Myarray[3])
 
-let arr = [2 , "jaipur" , true]
+// let arr = [2 , "jaipur" , true]
 
-console.log(arr)
-
-
-let arra = "sunil"
-let str = Array.from(arra)
-console.log(str)
-console.log(str.length) // array ki length 
+// console.log(arr)
 
 
-let fruit = ["apple" ,"painple", "banana", "stoberray", "orange"]
+// let arra = "sunil"
+// let str = Array.from(arra)
+// console.log(str)
+// console.log(str.length) // array ki length 
+
+
+// let fruit = ["apple" ,"painple", "banana", "stoberray", "orange"]
 // fruit [2] = "graps"  // array ki value ko update karne ke liye 
 
-console.log(fruit.sort());
+// console.log(fruit.sort());
 
 
 // console.log(fruit.at(-2))// negative index right side se  start hoti he jiski first indexing -1 se start hoti he
@@ -35,7 +35,7 @@ console.log(fruit.sort());
 
 // shift = array ke start se element remove karnna
 
-let arrb = [2,6,36,2].filter(x=> x%2==0)
+// let arrb = [2,6,36,2].filter(x=> x%2==0)
 // let arrd = [2,6,3]
 // arrb.push(10,21)
 
@@ -47,24 +47,42 @@ let arrb = [2,6,36,2].filter(x=> x%2==0)
 
 
 // sort 
-let number = [2,9,4,6,3,7]
+// let number = [2,9,4,6,3,7]
 
-console.log(number.sort((a,b)=>b-a));
+// console.log(number.sort((a,b)=>b-a));
 
-let arr2 = [1, 2, 3, 4, 5];
-arr2.sort(() => Math.random() - 0.5);
-console.log(arr2); 
+// let arr2 = [1, 2, 3, 4, 5];
+// arr2.sort(() => Math.random() - 0.5);
+// console.log(arr2); 
 
-let arr1 = [6,7,8,9,0]
+// let arr1 = [6,7,8,9,0]
 
-console.log(arr2.concat(arr1))
+// console.log(arr1.reduce())
+
+// console.log(arr2.concat(arr1))
 
 
-console.log(arr2.includes(3));
+// console.log(arr2.includes(3));
 
 
-let nam = ["sunil" , "jaipur" , "mern"]
+// let nammm = ["sunil" , "jaipur" , "mern"]
 
-let upercase = nam.map(nam => toUpperCase())
-console.log(upercase)
+// let upercase = nammm.map(nammm => toUpperCase())
+// console.log(upercase)
+
+// let nom = [1,3,6,5,7,8,9,0,11,12,13,14,15,16,17,18]
+
+// nom.forEach((nom,index,array)=>{
+//     console.log(nom ,index);
+    
+// })
+
+
+// map method ***************************************
+
+let names = ["jaipur" ,"jodhpur" , "bikaner"]
+
+let capital = names.map(name=>name.toUpperCase())
+
+console.log(capital);
 
