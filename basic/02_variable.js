@@ -1,12 +1,11 @@
- "use strict" ; // treat all JS code as newer version
+//  "use strict" ; // treat all JS code as newer version
  
  // alert ( 3+3) // we are using node.js , not browser
 
 
- console.log(3+
-    4); // code readability should be high
+//  console.log(3+4); // code readability should be high
 
-console.log("bangluru")
+// console.log("bangluru")
 
     // 1. Primitive data type 
 
@@ -25,9 +24,9 @@ console.log("bangluru")
         // object 
         // Function  
 
-console.log(typeof null);
-window.alert("Hello world!");
-alert("Hello world!");
+// console.log(typeof null);
+// window.alert("Hello world!");
+// alert("Hello world!");
 
 
 // memory management system  --------------
